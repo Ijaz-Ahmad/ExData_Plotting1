@@ -38,8 +38,7 @@ When loading the dataset into R, please consider the following:
 data in directory in directory <b>"~/Documents/data"</b>.
 Kindly make sure your computer has enough memory to work with the entire data.
 
-* We will only be using data from the dates 2007-02-01 and
-2007-02-02.
+* We are only using data from the dates 2007-02-01 and 2007-02-02.
 
 ## Plot the grapg and save as PNG file.
 
@@ -47,9 +46,9 @@ Kindly make sure your computer has enough memory to work with the entire data.
 
 
 
-* The code reads the entire data as "character", susets the data containing the dates
-"1/2/2007" and "2/2/2007", removes the rows containg "?" if any, converts the classes
+* The code reads the entire data set as "character", subsets the data containing the dates
+"1/2/2007" and "2/2/2007", removes the rows containg "?" (if any), converts the classes
 to required parameters and joins the "Date" and "Time" variables (when necessary).
 
 * After cleaning/transforming the data, the code calls the function png() with
-required parameters, plots the grah, saves the device into your working directory.
+required parameters, plots the graph and saves the device/graph into your working directory.
