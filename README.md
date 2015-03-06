@@ -36,10 +36,16 @@ When loading the dataset into R, please consider the following:
 
 * The dataset has 2,075,259 rows and 9 columns. I have loaded the entire
 data in directory in directory <b>"~/Documents/data"</b>.
-Kindly make sure your computer has enough memory to work with the data.
+Kindly make sure your computer has enough memory to work with the entire data.
 
 * We will only be using data from the dates 2007-02-01 and
 2007-02-02.
+
+## Plot the grapg and save as PNG file.
+
+
+
+
 
 * The code reads the entire data as "character", susets the data containing the dates
 "1/2/2007" and "2/2/2007", removes the rows containg "?" if any, converts the classes
